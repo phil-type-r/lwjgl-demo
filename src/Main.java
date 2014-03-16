@@ -2,6 +2,7 @@ import org.lwjgl.opengl.*;
 
 /**
  * Created by phil-type-r on 16.03.14.
+ * Main-Class
  */
 public class Main {
     public static void main(String[] args) {

@@ -6,6 +6,7 @@ import org.lwjgl.LWJGLException;
 
 /**
  * Created by phil-type-r on 16.03.14.
+ * Device-Class
  */
 public class Device {
     private int width;
