@@ -6,7 +6,7 @@ import org.lwjgl.opengl.*;
  */
 public class Main {
     public static void main(String[] args) {
-        Device dev = new Device();
+        Device dev = new Device(800, 600, false);
 
         Display.setTitle("Example By phil-type-r");
 
