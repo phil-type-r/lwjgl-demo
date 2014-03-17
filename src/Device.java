@@ -16,8 +16,6 @@ public class Device {
 
     public Device() {
         this(640, 480, false);
-        this.width = 640;
-        this.height = 480;
     }
 
     public Device(int width, int height, boolean fullscreen) {
