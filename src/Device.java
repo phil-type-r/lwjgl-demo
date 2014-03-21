@@ -37,7 +37,7 @@ public class Device {
     }
 
     private void initGL() {
-        backDrop = new Vector4f(0.0f, 0.0f, 1.0f, 1.0f);
+        backDrop = new Vector4f(0.0f, 1.0f, 0.0f, 1.0f);
         glClearColor(backDrop.x, backDrop.y, backDrop.z, backDrop.w);
         glDisable(GL_LIGHTING);
         glMatrixMode(GL11.GL_PROJECTION);
